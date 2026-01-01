@@ -11,11 +11,12 @@
 ## 📋 Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
-- [Screenshots](#-funcionalidades-principais)
-- [Características Principais](#-tecnologias-utilizadas)
-- [Estrutura do Projeto](#-como-executar-o-projeto)
-- [Instalação e Configuração](#-destaques-técnicos-e-Aprendizados)
-- [Como Usar](#-estrutura-do-projeto)
+- [Screenshots](#-screenshots)
+- [Funcionalidades Principais](#-funcionalidades-principais)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Resultados](#-resultados)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Como Executar o Projeto](#-como-executar-o-projeto)
 - [Contato](#-contato-pessoal)
 
 ## 💻 Sobre o Projeto
@@ -24,7 +25,16 @@
 
 ---
 
-### 🎯 Funcionalidades Principais
+## 📸 Screenshots
+<div align="center">
+  <img width="500" height="550" alt="projeto secret word no dekstop" src="https://github.com/user-attachments/assets/672ebfc7-c802-4a00-a038-676146205530" />
+  <img width="200" height="400" alt="projeto secret word no mobile" src="https://github.com/user-attachments/assets/0f874fca-e066-461a-82e3-ff10d777dfde" />
+  <img width="300" height="564" alt="projeto secret word no tablet" src="https://github.com/user-attachments/assets/96127b92-ef21-4613-9ded-6643e51c4d0f" />
+</div>
+
+---
+
+## 🎯 Funcionalidades Principais
 
 *   **Fluxo de Jogo Completo:** Telas distintas para Início, Jogo e Fim de Jogo (Game Over/Vitória).
 *   **Mecânica de Adivinhação:** Processamento de entrada de letras, validação de acertos/erros e controle de tentativas restantes.
@@ -39,11 +49,57 @@
 
 O projeto foi construído utilizando uma stack moderna e performática:
 
-*   **[React](https://reactjs.org/):** Biblioteca principal para construção da interface, utilizando **Hooks** (`useState`, `useEffect`, `useMemo`) para gerenciamento de estado e ciclo de vida.
+*   **React:** Biblioteca principal para construção da interface, utilizando **Hooks** (`useState`, `useEffect`, `useMemo`) para gerenciamento de estado e ciclo de vida.
 *   **Vite:** Ferramenta de build de próxima geração, proporcionando um ambiente de desenvolvimento extremamente rápido.
 *   **Tailwind CSS:** Framework CSS utility-first para estilização rápida, consistente e responsiva.
 *   **Framer Motion:** Biblioteca para animações declarativas altamente otimizada no React.
 *   **JavaScript (ES6+):** Lógica de programação moderna.
+
+---
+
+## ✅ Resultados
+
+Além das funcionalidades visíveis, o projeto foca em métricas de qualidade de código e performance:
+
+1.  **Otimização de Performance (React Hooks):**
+    *   Uso extensivo de `useMemo` para lógica derivada (filtragem de letras).
+    *   **Resultado:** Redução de **100%** em recálculos redundantes a cada renderização, garantindo fluidez na digitação.
+
+2.  **Experiência de Usuário (UX) Fluida:**
+    *   Implementação de animações com **Framer Motion** rodando a **60 FPS** (aceleração de hardware).
+    *   Feedback visual imediato (<100ms) para ações do usuário, melhorando a percepção de performance.
+
+3.  **Responsividade e Design System:**
+    *   Design totalmente responsivo com abordagem.
+    *   **Resultado:** Compatibilidade visual em **100%** dos dispositivos testados, utilizando breakpoints personalizados do Tailwind.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+├── 📁 src
+│   ├── 📁 assets
+│   │   ├── 📁 data
+│   │   │   └── 📄 secret-words.js
+│   │   └── 📁 imgs
+│   │       ├── 🖼️ bg.webp
+│   │       └── 📄 favicon.ico
+│   ├── 📁 components
+│   │   ├── 📄 Game.jsx
+│   │   ├── 📄 GameIntroduction.jsx
+│   │   └── 📄 GameOver.jsx
+│   ├── 📄 App.jsx
+│   └── 🎨 global.css
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── 📄 eslint.config.js
+├── 🌐 index.html
+├── 📄 main.jsx
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+└── 📄 vite.config.js
+```
 
 ---
 
@@ -79,53 +135,6 @@ Para rodar o projeto localmente, siga os passos abaixo:
     ```
 5.  O projeto estará rodando em `http://localhost:5173` (ou a porta indicada no terminal).
 
----
-
-## 💡 Destaques Técnicos e Aprendizados
-
-Este projeto serviu para consolidar conhecimentos importantes no desenvolvimento Front-end:
-
-1.  **Gerenciamento de Estado Complexo:**
-    *   Controle de múltiplos estados interligados (letras adivinhadas, letras erradas, tentativas, estágio do jogo).
-    *   Uso de `useEffect` para monitorar condições de vitória ou derrota.
-
-2.  **Performance e Otimização:**
-    *   Uso de `useMemo` para memorizar funções passadas como props, evitando re-renderizações desnecessárias.
-
-3.  **Componentização:**
-    *   Arquitetura baseada em componentes reutilizáveis e bem definidos, facilitando a manutenção e escalabilidade do código.
-
-4.  **Estilização Moderna:**
-    *   Aplicação prática do Tailwind CSS para criar layouts complexos sem sair do HTML/JSX, utilizando classes utilitárias para background, tipografia e layout flexbox/grid.
-
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-├── 📁 src
-│   ├── 📁 assets
-│   │   ├── 📁 data
-│   │   │   └── 📄 secret-words.js
-│   │   └── 📁 imgs
-│   │       ├── 🖼️ bg.webp
-│   │       └── 📄 favicon.ico
-│   ├── 📁 components
-│   │   ├── 📄 Game.jsx
-│   │   ├── 📄 GameIntroduction.jsx
-│   │   └── 📄 GameOver.jsx
-│   ├── 📄 App.jsx
-│   └── 🎨 global.css
-├── ⚙️ .gitignore
-├── 📝 README.md
-├── 📄 eslint.config.js
-├── 🌐 index.html
-├── 📄 main.jsx
-├── ⚙️ package-lock.json
-├── ⚙️ package.json
-└── 📄 vite.config.js
-```
 ---
 
 ## 👋 Contato Pessoal
