@@ -31,7 +31,7 @@ const words = [
     },
     {
         id: 7,
-        tip: "Bicho",
+        tip: "Animal",
         word: "GATO"
     },
     {
@@ -81,73 +81,128 @@ const words = [
     },
     {
         id: 17,
-        tip: "País",
-        word: "CHILE"
-    },
-    {
-        id: 18,
         tip: "Objeto",
         word: "LÁPIS"
     },
     {
-        id: 19,
+        id: 18,
         tip: "Cor",
         word: "ROSA"
     },
     {
-        id: 20,
+        id: 19,
         tip: "Comida",
         word: "SOPA"
     },
     {
-        id: 21,
-        tip: "Bicho",
+        id: 20,
+        tip: "Animal",
         word: "CAVALO"
     },
     {
-        id: 22,
+        id: 21,
         tip: "Profissão",
         word: "MÉDICO"
     },
     {
-        id: 23,
+        id: 22,
         tip: "Tecnologia",
         word: "CELULAR"
     },
     {
-        id: 24,
+        id: 23,
         tip: "Fruta",
         word: "LIMÃO"
     },
     {
-        id: 25,
+        id: 24,
         tip: "Objeto",
         word: "RELÓGIO"
     },
     {
-        id: 26,
+        id: 25,
         tip: "Veículo",
         word: "CARRO"
     },
     {
-        id: 27,
-        tip: "Comida",
-        word: "ARROZ"
-    },
-    {
-        id: 28,
+        id: 26,
         tip: "Veículo",
         word: "ÔNIBUS"
     },
     {
-        id: 29,
+        id: 27,
         tip: "Corpo humano",
         word: "MÃO"
     },
     {
-        id: 30,
+        id: 28,
         tip: "Animal",
         word: "VACA"
+    },
+    {
+        id: 29,
+        tip: "Fruta",
+        word: "MELÃO"
+    },
+    {
+        id: 30,
+        tip: "Animal",
+        word: "PATO"
+    },
+    {
+        id: 31,
+        tip: "Cor",
+        word: "VERDE"
+    },
+    {
+        id: 33,
+        tip: "Animal",
+        word: "TIGRE"
+    },
+    {
+        id: 34,
+        tip: "Corpo humano",
+        word: "PERNA"
+    },
+    {
+        id: 35,
+        tip: "Utensílio",
+        word: "FACA"
+    },
+    {
+        id: 36,
+        tip: "Instrumento musical",
+        word: "FLAUTA"
+    },
+    {
+        id: 37,
+        tip: "Veículo",
+        word: "BARCO"
+    },
+    {
+        id: 38,
+        tip: "Animal",
+        word: "RATO"
+    },
+    {
+        id: 39,
+        tip: "Cor",
+        word: "PRETO"
+    },
+    {
+        id: 40,
+        tip: "Profissão",
+        word: "JUIZ"
+    },
+    {
+        id: 41,
+        tip: "Utensílio",
+        word: "COLHER"
+    },
+    {
+        id: 42,
+        tip: "Elemento químico",
+        word: "PRATA"
     }
 ];
 

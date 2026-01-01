@@ -1,11 +1,11 @@
 const GameOver = ({setActive, statelife}) => {
     return (
-        <div className="flex flex-col justify-center items-center">
-            <h1 className="text-8xl font-bold mb-5">Game Over</h1>
-             <p className="text-[2.4rem]">Sua pontuação foi: <span className="text-yellow-300">{statelife.userScore}</span></p>
-             <p className="text-[1.5rem] mb-10 mt-4">Clique no botão abaixo para jogar novamente</p>
+        <div className="flex flex-col justify-center items-center text-center">
+            <h1 className="text-8xl font-bold mb-5 w-screen">Game Over</h1>
 
-             <button onClick={() => { setActive("game") , statelife.setUserScore(0)}} className="cursor-pointer text-2xl bg-blue-600 p-4 border-2 rounded-2xl">Jogar de novo</button>
+             <p className="text-[2rem] mb-8 bg-black/40 py-2 px-6 rounded-2xl max-[485px]:text-[1.5rem]">Sua pontuação foi: <span className="text-yellow-300 font-bold">{statelife.userScore}</span></p>
+
+             <button onClick={() => { setActive("game") , statelife.setUserScore(0)}} className="cursor-pointer text-2xl bg-[#1565ce] hover:bg-[#1565ce]/80 p-4 border-4 rounded-2xl font-semibold">Jogar de novo</button>
         </div>
     )
 }

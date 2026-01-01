@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center text-white font-poppins h-screen gap-5">
+    <div className="flex flex-col justify-center items-center text-white font-poppins min-h-screen gap-5 bg-[#0b0b2e65] bg-cover bg-center bg-no-repeat bg-fixed">
       {activeTab === "introduction" && <GameIntroduction setActive={setActiveTab} />}
       {activeTab === "game" && <Game setActive={setActiveTab} statelife={score} />}
       {activeTab === "gameOver" && <GameOver setActive={setActiveTab} statelife={score} />}
