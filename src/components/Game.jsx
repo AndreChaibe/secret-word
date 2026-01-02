@@ -52,7 +52,8 @@ const Game = ({ setActive, statelife }) => {
     }, [hasWon, statelife]);
 
     function handleUserLetter(event) {
-        setUserLetter(event.target.value.toLocaleUpperCase())
+        const value = event.target.value.toLocaleUpperCase()
+        setUserLetter(value.slice(0, 1))
     }
 
     function handleLossLife() {
