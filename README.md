@@ -111,7 +111,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 ### Pré-requisitos
 *   Node.js (versão 16 ou superior)
-*   npm ou yarn
+*   npm
 
 ### Instalação
 
@@ -126,8 +126,6 @@ Para rodar o projeto localmente, siga os passos abaixo:
 3.  **Instale as dependências:**
     ```bash
     npm install
-    # ou
-    yarn
     ```
 4.  **Inicie o servidor de desenvolvimento:**
     ```bash
