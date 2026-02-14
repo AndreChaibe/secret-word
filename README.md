@@ -2,7 +2,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=react,javascript,tailwindcss,vite&theme=dark)](https://skillicons.dev)
 
-[🌐 Acessar Portfólio](https://portfolio-react-mokl5j0qf-andrechaibe21-gmailcoms-projects.vercel.app/)|
+[🌐 Acessar meu Portfólio](portfolio-react-seven-fawn.vercel.app)|
 [📧 Contato](mailto:andrechaibedev@gmail.com)|
 [💼 LinkedIn](https://www.linkedin.com/in/andre-chaibe/)
 
@@ -23,6 +23,8 @@
 
 **Secret Word** é uma aplicação web moderna que recria a clássica experiência de jogos de forca/adivinhação. O objetivo do jogador é descobrir uma palavra secreta, baseada em uma dica de categoria, antes que suas tentativas se esgotem. Este projeto foi desenvolvido como parte de um estudo aprofundado sobre o ecossistema React, demonstrando a aplicação prática de conceitos fundamentais e avançados da biblioteca, além de integração com ferramentas modernas de estilização e build.
 
+[Link de acesso ao projeto](https://secret-word-theta.vercel.app/)
+  
 ---
 
 ## 📸 Screenshots
