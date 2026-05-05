@@ -23,15 +23,12 @@
 
 **Secret Word** é uma aplicação web moderna que recria a clássica experiência de jogos de forca/adivinhação. O objetivo do jogador é descobrir uma palavra secreta, baseada em uma dica de categoria, antes que suas tentativas se esgotem. Este projeto foi desenvolvido como parte de um estudo aprofundado sobre o ecossistema React, demonstrando a aplicação prática de conceitos fundamentais e avançados da biblioteca, além de integração com ferramentas modernas de estilização e build.
 
-[Link de acesso ao projeto](https://secret-word-theta.vercel.app/)
-  
 ---
 
 ## 📸 Screenshots
+
 <div align="center">
-  <img width="500" height="550" alt="projeto secret word no dekstop" src="https://github.com/user-attachments/assets/672ebfc7-c802-4a00-a038-676146205530" />
-  <img width="200" height="400" alt="projeto secret word no mobile" src="https://github.com/user-attachments/assets/0f874fca-e066-461a-82e3-ff10d777dfde" />
-  <img width="300" height="564" alt="projeto secret word no tablet" src="https://github.com/user-attachments/assets/96127b92-ef21-4613-9ded-6643e51c4d0f" />
+  <img width="1123" height="794" alt="Imagem do projeto secret word aberto em desktop, tablet e mobile" src="https://github.com/user-attachments/assets/a3d08b3f-8033-45ec-9818-5a00347cfdc6" />
 </div>
 
 ---
