@@ -127,8 +127,6 @@ Para rodar o projeto localmente, siga os passos abaixo:
 4.  **Inicie o servidor de desenvolvimento:**
     ```bash
     npm run dev
-    # ou
-    yarn dev
     ```
 5.  O projeto estará rodando em `http://localhost:5173` (ou a porta indicada no terminal).
 
